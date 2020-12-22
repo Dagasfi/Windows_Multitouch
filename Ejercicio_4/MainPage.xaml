@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="Ejercicio_4.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ejercicio_4"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="1161.927" d:DesignHeight="791.469">
+    <Page.Background>
+        <AcrylicBrush TintColor="#CCFFFFFF"/>
+    </Page.Background>
+    <Grid>
+        <Image x:Name="image" Source="/Assets/computer_img.png" Margin="790,250,122,251" ManipulationDelta="image1_manipulationDelta" NineGrid="-1,0,0,0" Width="250" Height="290"/>
+        <Image x:Name="image2" Source="/Assets/logo_dsic.png" Margin="82,91,730,350" ManipulationDelta="image2_manipulationDelta" Width="350" Height="300"/>
+        <Image x:Name="image3" HorizontalAlignment="Left" Height="250" Margin="414,466,0,0" VerticalAlignment="Top" Width="250" Source="/Assets/movil_png.png" ManipulationDelta="image3_manipulationDelta"/>
+
+    </Grid>
+</Page>
